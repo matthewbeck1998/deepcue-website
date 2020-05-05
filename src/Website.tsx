@@ -8,15 +8,32 @@ import TeamSection from "./TeamSection";
 import ResourcesSection from "./ResourcesSection";
 import NewsSection from "./NewsSection";
 
+import { initialState, reducer } from "./reducer";
+import { State } from "./types";
+
+function getCurrentSection(state: State) {
+  switch (state.currentSection) {
+    case "HOME_SECTION":
+      return <HomeSection />;
+    case "ABOUT_SECTION":
+      return <AboutSection />;
+    case "TEAM_SECTION":
+      return <TeamSection />;
+    case "RESOURCES_SECTION":
+      return <ResourcesSection />;
+    case "NEWS_SECTION":
+      return <NewsSection />;
+  }
+}
+
 function Website() {
+  const [state, dispatch] = React.useReducer(reducer, initialState);
+  const currentSection = getCurrentSection(state);
+
   return (
     <div className="website">
-      <Header />
-      <HomeSection />
-      <AboutSection />
-      <TeamSection />
-      <ResourcesSection />
-      <NewsSection/>
+      <Header dispatch={dispatch} />
+      {currentSection}
     </div>
   );
 }
