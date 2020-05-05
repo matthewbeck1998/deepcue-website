@@ -1,7 +1,7 @@
 import React from "react";
 
 function ResourcesSection() {
-  return <div className="resources-section">ResourcesSection</div>;
+  return <section className="resources-section">ResourcesSection</section>;
 }
 
 export default ResourcesSection;

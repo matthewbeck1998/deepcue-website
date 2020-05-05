@@ -1,7 +1,7 @@
 import React from "react";
 
 function AboutSection() {
-  return <div className="about-section">AboutSection</div>;
+  return <section className="about-section">AboutSection</section>;
 }
 
 export default AboutSection;

@@ -1,7 +1,7 @@
 import React from "react";
 
 function TeamSection() {
-  return <div className="team-section">TeamSection</div>;
+  return <section className="team-section">TeamSection</section>;
 }
 
 export default TeamSection;

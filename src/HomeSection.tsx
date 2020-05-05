@@ -1,7 +1,7 @@
 import React from "react";
 
 function HomeSection() {
-  return <div className="home-section">HomeSection</div>;
+  return <section className="home-section">HomeSection</section>;
 }
 
 export default HomeSection;
