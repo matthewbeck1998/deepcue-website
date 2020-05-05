@@ -37,7 +37,6 @@
 
 .tab {
   align-items: center;
-  background-color: rgba(0, 128, 255, .25);
   border: 2px solid black;
   border-left: 0;
   display: flex;

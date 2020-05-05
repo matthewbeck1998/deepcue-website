@@ -53,7 +53,7 @@ function ResourcesSection({ state }: SectionProps) {
 
   const elements = resources.map(({ title, url }, index) => (
     <div className="resource-container" key={index}>
-      <a className="resource" href={url} target="_blank">
+      <a className="resource" href={url} rel="noopener noreferrer" target="_blank">
         <h3 className="resource-title">{title}</h3>
       </a>
     </div>
