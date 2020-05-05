@@ -12,7 +12,6 @@ import { initialState, reducer } from "./reducer";
 
 function Website() {
   const [state, dispatch] = React.useReducer(reducer, initialState);
-  console.log(state.currentSection);
 
   return (
     <div className="website">
