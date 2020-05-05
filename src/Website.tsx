@@ -6,7 +6,7 @@ import HomeSection from "./HomeSection";
 import AboutSection from "./AboutSection";
 import TeamSection from "./TeamSection";
 import ResourcesSection from "./ResourcesSection";
-import ArticlesSection from "./ArticlesSection";
+import NewsSection from "./NewsSection";
 
 function Website() {
   return (
@@ -16,7 +16,7 @@ function Website() {
       <AboutSection />
       <TeamSection />
       <ResourcesSection />
-      <ArticlesSection/>
+      <NewsSection/>
     </div>
   );
 }
