@@ -14,9 +14,13 @@ interface Action {
   value: Section;
 }
 
+interface SectionProps {
+  state: State;
+}
+
 interface HeaderProps {
   dispatch: React.Dispatch<Action>;
-};
+}
 
 interface TabSelectorProps {
   dispatch: React.Dispatch<Action>;

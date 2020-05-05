@@ -1,7 +1,16 @@
 import React from "react";
+import { SectionProps } from "./types";
 
-function TeamSection() {
-  return <section className="section">TeamSection</section>;
+function TeamSection({ state }: SectionProps) {
+  return (
+    <section
+      className={
+        state.currentSection === "TEAM_SECTION" ? "section" : "section hidden"
+      }
+    >
+      TeamSection
+    </section>
+  );
 }
 
 export default TeamSection;
