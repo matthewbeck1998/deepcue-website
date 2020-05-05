@@ -4,8 +4,8 @@ import "./Website.css";
 import HomeSection from "./HomeSection";
 import AboutSection from "./AboutSection";
 import TeamSection from "./TeamSection";
-import Resources from "./ResourcesSection";
-import Articles from "./ArticlesSection";
+import ResourcesSection from "./ResourcesSection";
+import ArticlesSection from "./ArticlesSection";
 
 function Website() {
   return (
@@ -13,8 +13,8 @@ function Website() {
       <HomeSection />
       <AboutSection />
       <TeamSection />
-      <Resources />
-      <Articles />
+      <ResourcesSection />
+      <ArticlesSection/>
     </div>
   );
 }
