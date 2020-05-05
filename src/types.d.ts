@@ -17,3 +17,7 @@ interface Action {
 interface HeaderProps {
   dispatch: React.Dispatch<Action>;
 };
+
+interface TabSelectorProps {
+  dispatch: React.Dispatch<Action>;
+}
