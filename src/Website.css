@@ -71,7 +71,7 @@
 .video-wrapper {
   position: relative;
   width: 100%;
-  height: 0px;
+  height: 0;
   padding-bottom: 56.25%;
 }
 
@@ -195,7 +195,7 @@
   justify-content: center;
   grid-gap: 30px;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 300px 300px;
+  grid-template-rows: 350px 350px;
 }
 
 .team-card {
@@ -223,6 +223,10 @@
 }
 
 .team-card-description {
+  padding-top: 5px;
   grid-row: 3 / -1;
   grid-column: 1 / -1;
+}
+.daves-special-card-cause-his-name-is-too-long {
+  width: 180px;
 }
