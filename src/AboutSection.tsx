@@ -13,15 +13,15 @@ function AboutSection({ state }: SectionProps) {
         <h2 className="about-title">Description</h2>
         <p className="about-description">
           The purpose of DeepCue is to create a machine learning model that
-          learns to play a game with machine learning techniques, and the user
-          should be able to improve the model by providing advice in the form of
-          suggested button inputs. The machine learning model will use Deep Q
-          Learning to learn the game based on a reward function of how far the
-          agent makes it in the level. Users can watch the model learn in real
-          time, and they will also have the option to pause the automated
-          learning algorithm to provide suggested input. These suggested inputs
-          will be incorporated into the model to help it perform better than one
-          without user assistance.
+          learns to play a game with machine learning techniques. The user is
+          able to improve the model by providing advice in the form of suggested
+          button inputs. The machine learning model uses deep Q-learning to
+          learn the game, using a reward function based on how far the agent
+          gets into the level. Users can watch the model train in real time,
+          with the option to pause the automated learning algorithm to provide
+          suggested input. These suggested inputs are incorporated into the
+          model, helping the assisted model perform better than an unassisted
+          model.
         </p>
       </div>
 
@@ -41,13 +41,13 @@ function AboutSection({ state }: SectionProps) {
       <div className="about-container">
         <h2 className="about-title">Achievements</h2>
         <p className="about-description">
-          DeepCue attempts to achieve integration machine learning with user
-          interaction. Traditionally, machine learning is portrayed as a black
-          box with a bunch of linear algebra inside of it that makes no sense to
-          humans. By integrating machine learning with user interaction, DeepCue
-          hopes to give insight into what the algorithm is doing behind the
-          scenes. In addition, with guidance, the model should be able to train
-          faster as it is being guided by the user into a more optimal path.
+          DeepCue attempts to integrate machine learning with user interaction.
+          Traditionally, machine learning is portrayed as a black box with a
+          bunch of linear algebra inside of it that makes no sense to humans. By
+          integrating machine learning with user interaction, DeepCue hopes to
+          give insight into what the algorithm is doing behind the scenes. In
+          addition, with guidance, the model should be able to train faster as
+          it is being guided by the user into a more optimal path.
         </p>
       </div>
 
@@ -70,15 +70,13 @@ function AboutSection({ state }: SectionProps) {
       <div className="about-container">
         <h2 className="about-title">Requirements</h2>
         <p className="about-description">
-          DeepCue aims to implement integration between human cues and machine
-          learning to train algorithms faster with the goal of playing a game
-          better. Starting out, the game will be a 2D platformer to be chosen at
-          some later time. DeepCue should be able to load a game, then train a
-          model using Deep Q reinforcement learning on the game. It should be
-          able to take user input at particular frames/times, defined by what
-          choice/button to make/press at that time. This serves as the user’s
-          cue to the program as a good choice that leads to better progress
-          within the game.
+          DeepCue aims to integrate human cues and machine learning with the
+          goal of training a model more optimally. In this case, the model is
+          applied to Super Mario Bros. DeepCue is able to load Super Mario Bros
+          on an emulator and train a model using deep Q-learning. DeepCue is
+          able to accept user input at any time, defined by what button to press
+          at that time. This serves as the user’s cue to the program as a good
+          choice that leads to better outcomes within Super Mario Bros.
         </p>
       </div>
 
@@ -89,13 +87,13 @@ function AboutSection({ state }: SectionProps) {
           audience. DeepCue could add the ability to run multiple learning
           algorithms, have a dedicated server to run the algorithms, and be able
           to crowdsource learning input. The ability to run on multiple learning
-          algorithms instead of just Deep Q Learning would allow DeepCue to
+          algorithms instead of just deep Q-learning would allow DeepCue to
           compare learning rates of different algorithms and find the best
           algorithm. With a dedicated server, DeepCue could be run on anybody's
-          machine instead of just people with a high end computer. Crowdsourcing
+          machine instead of just people with a high-end computer. Crowdsourcing
           input through a means similar to Twitch Plays Pokemon would allow for
-          a machine learning approach that utilizes peoples’ brains and
-          intuition instead of computer hardware.
+          a machine learning approach that utilizes a large amount of the most
+          powerful computers in the world: human brains.
         </p>
       </div>
     </section>
