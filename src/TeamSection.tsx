@@ -16,7 +16,7 @@ function TeamSection({ state }: SectionProps) {
           className="team-card-image"
         />
         <div className="team-card-nameplate">
-          <h1 className="team-card-name">Matthew Beck</h1>
+          <h2 className="team-card-name">Matthew Beck</h2>
           <p className="team-card-title">Senior in CSE at UNR</p>
         </div>
         <p className="team-card-description">
@@ -35,7 +35,7 @@ function TeamSection({ state }: SectionProps) {
           className="team-card-image"
         />
         <div className="team-card-nameplate">
-          <h1 className="team-card-name">William Garner</h1>
+          <h2 className="team-card-name">William Garner</h2>
           <p className="team-card-title">Senior in CSE at UNR</p>
         </div>
 
@@ -57,7 +57,7 @@ function TeamSection({ state }: SectionProps) {
           className="team-card-image"
         />
         <div className="team-card-nameplate">
-          <h1 className="team-card-name">Price Poston</h1>
+          <h2 className="team-card-name">Price Poston</h2>
           <p className="team-card-title">Senior in CSE at UNR</p>
         </div>
 
@@ -77,7 +77,7 @@ function TeamSection({ state }: SectionProps) {
           className="team-card-image"
         />
         <div className="team-card-nameplate">
-          <h1 className="team-card-name">Derek Stratton</h1>
+          <h2 className="team-card-name">Derek Stratton</h2>
           <p className="team-card-title">Senior in CSE at UNR</p>
         </div>
 
@@ -97,7 +97,7 @@ function TeamSection({ state }: SectionProps) {
           className="team-card-image"
         />
         <div className="team-card-nameplate">
-          <h1 className="team-card-name">Sergiu Dascalu</h1>
+          <h2 className="team-card-name">Sergiu Dascalu</h2>
           <p className="team-card-title">BGP++ Advisor</p>
           <p className="team-card-title">Professor</p>
         </div>
@@ -119,7 +119,7 @@ function TeamSection({ state }: SectionProps) {
           className="team-card-image"
         />
         <div className="team-card-nameplate">
-          <h1 className="team-card-name">David Feil-Seifer</h1>
+          <h2 className="team-card-name">David Feil-Seifer</h2>
           <p className="team-card-title">BGP++ Advisor</p>
           <p className="team-card-title">Associate Professor</p>
           <p className="team-card-title">Graduate Program Director</p>
@@ -142,7 +142,7 @@ function TeamSection({ state }: SectionProps) {
           className="team-card-image"
         />
         <div className="team-card-nameplate">
-          <h1 className="team-card-name">Devrin Lee</h1>
+          <h2 className="team-card-name">Devrin Lee</h2>
           <p className="team-card-title">BGP++ Advisor</p>
           <p className="team-card-title">Operational Program Manager</p>
         </div>
@@ -163,7 +163,7 @@ function TeamSection({ state }: SectionProps) {
           className="team-card-image"
         />
         <div className="team-card-nameplate">
-          <h1 className="team-card-name">Emily Hand</h1>
+          <h2 className="team-card-name">Emily Hand</h2>
           <p className="team-card-title">BGP++ Advisor</p>
           <p className="team-card-title">Assistant Professor</p>
         </div>
