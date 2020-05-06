@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/deepcue-website/precache-manifest.02d2563f3ffe7604e133c73a10bbb39e.js"
+  "/deepcue-website/precache-manifest.5e8b82b0bb383269729075df7887af35.js"
 );
 
 self.addEventListener('message', (event) => {
