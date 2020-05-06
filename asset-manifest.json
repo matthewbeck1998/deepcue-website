@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/deepcue-website/static/css/main.9cb1f15e.chunk.css",
+    "main.css": "/deepcue-website/static/css/main.db2a96c4.chunk.css",
     "main.js": "/deepcue-website/static/js/main.f9e0b781.chunk.js",
     "main.js.map": "/deepcue-website/static/js/main.f9e0b781.chunk.js.map",
     "runtime-main.js": "/deepcue-website/static/js/runtime-main.f3cf3d07.js",
@@ -8,9 +8,9 @@
     "static/js/2.93499a61.chunk.js": "/deepcue-website/static/js/2.93499a61.chunk.js",
     "static/js/2.93499a61.chunk.js.map": "/deepcue-website/static/js/2.93499a61.chunk.js.map",
     "index.html": "/deepcue-website/index.html",
-    "precache-manifest.76b19e6c40d4966493ce3dc9c05b8dbf.js": "/deepcue-website/precache-manifest.76b19e6c40d4966493ce3dc9c05b8dbf.js",
+    "precache-manifest.9e50fbadc973e62f93f6ed812baacaec.js": "/deepcue-website/precache-manifest.9e50fbadc973e62f93f6ed812baacaec.js",
     "service-worker.js": "/deepcue-website/service-worker.js",
-    "static/css/main.9cb1f15e.chunk.css.map": "/deepcue-website/static/css/main.9cb1f15e.chunk.css.map",
+    "static/css/main.db2a96c4.chunk.css.map": "/deepcue-website/static/css/main.db2a96c4.chunk.css.map",
     "static/js/2.93499a61.chunk.js.LICENSE.txt": "/deepcue-website/static/js/2.93499a61.chunk.js.LICENSE.txt",
     "static/media/DavidFeilSeifer.jpg": "/deepcue-website/static/media/DavidFeilSeifer.58a459b4.jpg",
     "static/media/DeepCueIcon.png": "/deepcue-website/static/media/DeepCueIcon.06c4756a.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.f3cf3d07.js",
     "static/js/2.93499a61.chunk.js",
-    "static/css/main.9cb1f15e.chunk.css",
+    "static/css/main.db2a96c4.chunk.css",
     "static/js/main.f9e0b781.chunk.js"
   ]
 }
