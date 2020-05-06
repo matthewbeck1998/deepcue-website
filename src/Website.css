@@ -56,8 +56,8 @@
 }
 
 .section {
-  height: 90%;
-  width: 90%;
+  height: calc(100% - 60px);
+  width: calc(100% - 60px);
   padding: 30px;
 }
 
@@ -65,7 +65,7 @@
   display: grid;
   grid-gap: 30px;
   grid-template-columns: auto 560px;
-  grid-template-rows: auto 315px;
+  grid-template-rows: 315px 315px;
 }
 
 #resources-section {
