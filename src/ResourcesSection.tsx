@@ -2,7 +2,7 @@ import React from "react";
 
 function ResourcesSection() {
   const resources = [
-    { title: "Problem Domain Book", url: "https://tinyurl.com/y6wqlau3" },
+    { title: "Problem Domain Book", url: "http://incompleteideas.net/book/bookdraft2017nov5.pdf" },
     {
       title: "Journal Article",
       url:
