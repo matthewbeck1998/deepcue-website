@@ -11,12 +11,12 @@ function HomeSection({ state }: SectionProps) {
     >
       <div className="home-container">
         <div className="intro">
-          <h2>DeepCue</h2>
-          <span>CS 426 - Senior Projects in Computer Science</span>
-          <span>Department of Computer Science and Engineering</span>
-          <span>University of Nevada, Reno</span>
-          <span>Spring 2020</span>
-          <span>Team #1 - BGP++</span>
+          <h2 className="intro-line">DeepCue</h2>
+          <h3 className="intro-line">CS 426 - Senior Projects in Computer Science</h3>
+          <h3 className="intro-line">Department of Computer Science and Engineering</h3>
+          <h3 className="intro-line">University of Nevada, Reno</h3>
+          <h3 className="intro-line">Spring 2020</h3>
+          <h3 className="intro-line">Team #1 - BGP++</h3>
         </div>
       </div>
       <div className="home-container">
