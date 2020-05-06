@@ -19,7 +19,8 @@ function TeamSection() {
         />
         <div className="team-card-nameplate">
           <h2 className="team-card-name">Matthew Beck</h2>
-          <p className="team-card-title">Senior in CSE at UNR</p>
+          <p className="team-card-title">User Interface Developer</p>
+          <p className="team-card-title">Senior, CSE Department</p>
         </div>
         <p className="team-card-description">
           Matthew Beck currently works as a software development intern at AVA
@@ -38,7 +39,8 @@ function TeamSection() {
         />
         <div className="team-card-nameplate">
           <h2 className="team-card-name">William Garner</h2>
-          <p className="team-card-title">Senior in CSE at UNR</p>
+          <p className="team-card-title">User Interface Developer</p>
+          <p className="team-card-title">Senior, CSE Department</p>
         </div>
 
         <p className="team-card-description">
@@ -60,7 +62,8 @@ function TeamSection() {
         />
         <div className="team-card-nameplate">
           <h2 className="team-card-name">Price Poston</h2>
-          <p className="team-card-title">Senior in CSE at UNR</p>
+          <p className="team-card-title">User Interface Developer</p>
+          <p className="team-card-title">Senior, CSE Department</p>
         </div>
 
         <p className="team-card-description">
@@ -80,7 +83,8 @@ function TeamSection() {
         />
         <div className="team-card-nameplate">
           <h2 className="team-card-name">Derek Stratton</h2>
-          <p className="team-card-title">Senior in CSE at UNR</p>
+          <p className="team-card-title">Machine Learning Developer</p>
+          <p className="team-card-title">Senior, CSE Department</p>
         </div>
 
         <p className="team-card-description">
