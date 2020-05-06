@@ -12,8 +12,12 @@ function HomeSection({ state }: SectionProps) {
       <div className="home-container">
         <div className="intro">
           <h2 className="intro-line">DeepCue</h2>
-          <h3 className="intro-line">CS 426 - Senior Projects in Computer Science</h3>
-          <h3 className="intro-line">Department of Computer Science and Engineering</h3>
+          <h3 className="intro-line">
+            CS 426 - Senior Projects in Computer Science
+          </h3>
+          <h3 className="intro-line">
+            Department of Computer Science and Engineering
+          </h3>
           <h3 className="intro-line">University of Nevada, Reno</h3>
           <h3 className="intro-line">Spring 2020</h3>
           <h3 className="intro-line">Team #1 - BGP++</h3>
@@ -41,15 +45,16 @@ function HomeSection({ state }: SectionProps) {
         </p>
       </div>
       <div className="home-container">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/C8_xEUezvII"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          title="DeepCue Video"
-        ></iframe>
+        <div className="video-wrapper">
+          <iframe
+            className="video"
+            src="https://www.youtube.com/embed/C8_xEUezvII"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="DeepCue Video"
+          />
+        </div>
       </div>
     </section>
   );
