@@ -1,14 +1,8 @@
 import React from "react";
-import { SectionProps } from "./types";
 
-function AboutSection({ state }: SectionProps) {
+function AboutSection() {
   return (
-    <section
-      className={
-        state.currentSection === "ABOUT_SECTION" ? "section" : "section hidden"
-      }
-      id={"about-section"}
-    >
+    <section className="section" id={"about-section"}>
       <div className="about-container">
         <h2 className="about-title">Description</h2>
         <p className="about-description">

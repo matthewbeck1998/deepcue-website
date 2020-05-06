@@ -1,17 +1,19 @@
 import React from "react";
-import { SectionProps } from "./types";
+import MatthewBeckImage from "./MatthewBeck.jpeg";
+import WilliamGarnerImage from "./WilliamGarner.jpeg";
+import PricePostonImage from "./PricePoston.jpeg";
+import DerekStrattonImage from "./DerekStratton.jpeg";
+import SergiuDascaluImage from "./SergiuDascalu.jpg";
+import DavidFeilSeiferImage from "./DavidFeilSeifer.jpg";
+import DevrinLeeImage from "./DevrinLee.jpeg";
+import EmilyHandImage from "./EmilyHand.jpg";
 
-function TeamSection({ state }: SectionProps) {
+function TeamSection() {
   return (
-    <section
-      className={
-        state.currentSection === "TEAM_SECTION" ? "section" : "section hidden"
-      }
-      id="team-section"
-    >
+    <section className="section" id="team-section">
       <div className="team-card">
         <img
-          src="https://drive.google.com/uc?id=1al8XRmzQMYRHMO9DZVY2hX8bY5ZUKcXu"
+          src={MatthewBeckImage}
           alt="Matthew Beck"
           className="team-card-image"
         />
@@ -30,7 +32,7 @@ function TeamSection({ state }: SectionProps) {
 
       <div className="team-card">
         <img
-          src="https://drive.google.com/uc?id=1oH-ywOaV_J3H02wouFWYURoKSmIOuRrF"
+          src={WilliamGarnerImage}
           alt="William Garner"
           className="team-card-image"
         />
@@ -52,7 +54,7 @@ function TeamSection({ state }: SectionProps) {
 
       <div className="team-card">
         <img
-          src="https://drive.google.com/uc?id=1Z4GztOv1bh9obD1V6luxEh_pxq3_tUXC"
+          src={PricePostonImage}
           alt="Price Poston"
           className="team-card-image"
         />
@@ -72,7 +74,7 @@ function TeamSection({ state }: SectionProps) {
 
       <div className="team-card">
         <img
-          src="https://drive.google.com/uc?id=16arXAeIVF3tBGuuqkEwGuZi2u5X8Pk-4"
+          src={DerekStrattonImage}
           alt="Derek Stratton"
           className="team-card-image"
         />
@@ -92,7 +94,7 @@ function TeamSection({ state }: SectionProps) {
 
       <div className="team-card">
         <img
-          src="https://www.unr.edu/main/images/colleges-schools/engineering/cse/profiles/SergiuDascalu.jpg"
+          src={SergiuDascaluImage}
           alt="Sergiu Dascalu"
           className="team-card-image"
         />
@@ -114,7 +116,7 @@ function TeamSection({ state }: SectionProps) {
 
       <div className="team-card">
         <img
-          src="https://www.unr.edu/main/images/colleges-schools/engineering/cse/profiles/DavidFeilSeifer.jpg"
+          src={DavidFeilSeiferImage}
           alt="David Feil-Seifer"
           className="team-card-image"
         />
@@ -137,7 +139,7 @@ function TeamSection({ state }: SectionProps) {
 
       <div className="team-card">
         <img
-          src="https://media-exp1.licdn.com/dms/image/C4E03AQGP-WVk-HtN5g/profile-displayphoto-shrink_200_200/0?e=1594252800&v=beta&t=LRW1S-FGoH4ODVsPKcQzPU_PR9jSZttGYQKwynvCKTE"
+          src={DevrinLeeImage}
           alt="Devrin Lee"
           className="team-card-image"
         />
@@ -158,7 +160,7 @@ function TeamSection({ state }: SectionProps) {
 
       <div className="team-card">
         <img
-          src="https://www.unr.edu/main/images/colleges-schools/engineering/cse/profiles/EmilyHand.jpg"
+          src={EmilyHandImage}
           alt="Emily Hand"
           className="team-card-image"
         />

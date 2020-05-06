@@ -1,14 +1,9 @@
 import React from "react";
-import { SectionProps } from "./types";
+import DeepCueUI from "./DeepCueUI.png";
 
-function HomeSection({ state }: SectionProps) {
+function HomeSection() {
   return (
-    <section
-      className={
-        state.currentSection === "HOME_SECTION" ? "section" : "section hidden"
-      }
-      id="home-section"
-    >
+    <section className="section" id="home-section">
       <div className="home-container">
         <div className="intro">
           <h2 className="intro-line">DeepCue</h2>
@@ -27,7 +22,7 @@ function HomeSection({ state }: SectionProps) {
         <img
           alt="DeepCue user interface"
           className="image"
-          src="https://drive.google.com/uc?id=1LIg3n8QVVO_Typ5t9U4d4cGXdiUnCDll"
+          src={DeepCueUI}
         ></img>
       </div>
       <div className="home-container">

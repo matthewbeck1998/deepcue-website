@@ -1,7 +1,6 @@
 import React from "react";
-import { SectionProps } from "./types";
 
-function ResourcesSection({ state }: SectionProps) {
+function ResourcesSection() {
   const resources = [
     { title: "Problem Domain Book", url: "https://tinyurl.com/y6wqlau3" },
     {
@@ -53,21 +52,19 @@ function ResourcesSection({ state }: SectionProps) {
 
   const elements = resources.map(({ title, url }, index) => (
     <div className="resource-container" key={index}>
-      <a className="resource" href={url} rel="noopener noreferrer" target="_blank">
+      <a
+        className="resource"
+        href={url}
+        rel="noopener noreferrer"
+        target="_blank"
+      >
         <h3 className="resource-title">{title}</h3>
       </a>
     </div>
   ));
 
   return (
-    <section
-      className={
-        state.currentSection === "RESOURCES_SECTION"
-          ? "section"
-          : "section hidden"
-      }
-      id="resources-section"
-    >
+    <section className="section" id="resources-section">
       {elements}
     </section>
   );

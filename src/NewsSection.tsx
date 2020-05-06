@@ -1,7 +1,6 @@
 import React from "react";
-import { SectionProps } from "./types";
 
-function NewsSection({ state }: SectionProps) {
+function NewsSection() {
   const news = [
     {
       date: "2020-04-29",
@@ -37,12 +36,7 @@ function NewsSection({ state }: SectionProps) {
   ));
 
   return (
-    <section
-      className={
-        state.currentSection === "NEWS_SECTION" ? "section" : "section hidden"
-      }
-      id="news-section"
-    >
+    <section className="section" id="news-section">
       {elements}
     </section>
   );
