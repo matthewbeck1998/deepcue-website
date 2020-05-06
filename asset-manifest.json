@@ -1,22 +1,31 @@
 {
   "files": {
-    "main.css": "/deepcue-website/static/css/main.c1f11018.chunk.css",
-    "main.js": "/deepcue-website/static/js/main.751bdbed.chunk.js",
-    "main.js.map": "/deepcue-website/static/js/main.751bdbed.chunk.js.map",
+    "main.css": "/deepcue-website/static/css/main.9cb1f15e.chunk.css",
+    "main.js": "/deepcue-website/static/js/main.f9e0b781.chunk.js",
+    "main.js.map": "/deepcue-website/static/js/main.f9e0b781.chunk.js.map",
     "runtime-main.js": "/deepcue-website/static/js/runtime-main.f3cf3d07.js",
     "runtime-main.js.map": "/deepcue-website/static/js/runtime-main.f3cf3d07.js.map",
-    "static/js/2.17cffbb2.chunk.js": "/deepcue-website/static/js/2.17cffbb2.chunk.js",
-    "static/js/2.17cffbb2.chunk.js.map": "/deepcue-website/static/js/2.17cffbb2.chunk.js.map",
+    "static/js/2.93499a61.chunk.js": "/deepcue-website/static/js/2.93499a61.chunk.js",
+    "static/js/2.93499a61.chunk.js.map": "/deepcue-website/static/js/2.93499a61.chunk.js.map",
     "index.html": "/deepcue-website/index.html",
-    "precache-manifest.17c8b2d15bfc7ecca8561ced48440cef.js": "/deepcue-website/precache-manifest.17c8b2d15bfc7ecca8561ced48440cef.js",
+    "precache-manifest.76b19e6c40d4966493ce3dc9c05b8dbf.js": "/deepcue-website/precache-manifest.76b19e6c40d4966493ce3dc9c05b8dbf.js",
     "service-worker.js": "/deepcue-website/service-worker.js",
-    "static/css/main.c1f11018.chunk.css.map": "/deepcue-website/static/css/main.c1f11018.chunk.css.map",
-    "static/js/2.17cffbb2.chunk.js.LICENSE.txt": "/deepcue-website/static/js/2.17cffbb2.chunk.js.LICENSE.txt"
+    "static/css/main.9cb1f15e.chunk.css.map": "/deepcue-website/static/css/main.9cb1f15e.chunk.css.map",
+    "static/js/2.93499a61.chunk.js.LICENSE.txt": "/deepcue-website/static/js/2.93499a61.chunk.js.LICENSE.txt",
+    "static/media/DavidFeilSeifer.jpg": "/deepcue-website/static/media/DavidFeilSeifer.58a459b4.jpg",
+    "static/media/DeepCueIcon.png": "/deepcue-website/static/media/DeepCueIcon.06c4756a.png",
+    "static/media/DeepCueUI.png": "/deepcue-website/static/media/DeepCueUI.0883aebd.png",
+    "static/media/DerekStratton.jpeg": "/deepcue-website/static/media/DerekStratton.fc9b5725.jpeg",
+    "static/media/EmilyHand.jpg": "/deepcue-website/static/media/EmilyHand.c33637b6.jpg",
+    "static/media/MatthewBeck.jpeg": "/deepcue-website/static/media/MatthewBeck.766147c2.jpeg",
+    "static/media/PricePoston.jpeg": "/deepcue-website/static/media/PricePoston.a5d3cfef.jpeg",
+    "static/media/SergiuDascalu.jpg": "/deepcue-website/static/media/SergiuDascalu.2e1447fc.jpg",
+    "static/media/WilliamGarner.jpeg": "/deepcue-website/static/media/WilliamGarner.6b22d39b.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.f3cf3d07.js",
-    "static/js/2.17cffbb2.chunk.js",
-    "static/css/main.c1f11018.chunk.css",
-    "static/js/main.751bdbed.chunk.js"
+    "static/js/2.93499a61.chunk.js",
+    "static/css/main.9cb1f15e.chunk.css",
+    "static/js/main.f9e0b781.chunk.js"
   ]
 }
