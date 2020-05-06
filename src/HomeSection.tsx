@@ -24,13 +24,6 @@ function HomeSection({ state }: SectionProps) {
         </div>
       </div>
       <div className="home-container">
-        <img
-          alt="DeepCue user interface"
-          className="image"
-          src="https://drive.google.com/uc?id=1LIg3n8QVVO_Typ5t9U4d4cGXdiUnCDll"
-        ></img>
-      </div>
-      <div className="home-container">
         <p className="abstract">
           DeepCue uses a deep Q-learning algorithm to initially learn how to
           play a game then uses a convolutional neural network to incorporate
@@ -43,6 +36,13 @@ function HomeSection({ state }: SectionProps) {
           accepting user guidance outperforms a model without user guidance in
           both how quickly it is trained and how well it performs.
         </p>
+      </div>
+      <div className="home-container">
+        <img
+          alt="DeepCue user interface"
+          className="image"
+          src="https://drive.google.com/uc?id=1LIg3n8QVVO_Typ5t9U4d4cGXdiUnCDll"
+        ></img>
       </div>
       <div className="home-container">
         <div className="video-wrapper">
