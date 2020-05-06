@@ -177,19 +177,25 @@
 #about-section {
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 1fr 1fr;
 }
 
 .about-container {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 20% 80%;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
+  grid-template-rows: auto 1fr;
+  grid-gap: 15px;
+  padding: 15px;
   background-color: rgba(0, 0, 0, .25);
+}
+
+.about-title {
+  margin: 0;
+}
+
+.about-description {
+  margin: 0;
+  text-align: justify;
 }
 
 #team-section {
