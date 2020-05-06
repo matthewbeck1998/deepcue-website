@@ -13,7 +13,7 @@ function ResourcesSection() {
       url:
         "https://www.cs.utexas.edu/~pstone/Papers/bib2html/b2hd-AAMAS12-knox.html"
     },
-    { title: "Tensorflow", url: "https://www.tensorflow.org/learn" },
+    { title: "TensorFlow", url: "https://www.tensorflow.org/learn" },
     { title: "Keras", url: "https://keras.io/" },
     { title: "Python 3", url: "https://docs.python.org/3/" },
     {
