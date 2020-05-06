@@ -4,29 +4,34 @@ import { SectionProps } from "./types";
 function NewsSection({ state }: SectionProps) {
   const news = [
     {
-      title: "DeepCue Completed",
-      text: "BGP++ has completed development on DeepCue!"
+      date: "2020-04-29",
+      text: "BGP++ has completed development on DeepCue!",
+      title: "DeepCue Completed"
     },
     {
-      title: "User Interface Completed",
-      text: "BGP++ has completed development on the user interface."
+      date: "2020-04-17",
+      text: "BGP++ has completed development on the advice learning.",
+      title: "Advice Learning Completed"
     },
     {
-      title: "Advice Learning Completed",
-      text: "BGP++ has completed development on the advice learning."
+      date: "2020-03-10",
+      text: "BGP++ has completed development on the user interface.",
+      title: "User Interface Completed"
     },
     {
-      title: "User Interface Prototype Completed",
-      text: "BGP++ has completed a prototype of the user interface."
+      date: "2019-12-06",
+      text: "BGP++ has completed a prototype of the user interface.",
+      title: "User Interface Prototype Completed"
     },
     {
-      title: "Reinforcement Learning Completed",
-      text: "BGP++ has completed development on the reinforcement learning."
+      date: "2019-11-30",
+      text: "BGP++ has completed development on the reinforcement learning.",
+      title: "Reinforcement Learning Completed"
     }
   ];
-  const elements = news.map(({ title, text }, index) => (
+  const elements = news.map(({ date, text, title }, index) => (
     <div className="news-container" key={index}>
-      <h3 className="news-title">{title}</h3>
+      <h3 className="news-title">{`${date} - ${title}`}</h3>
       <span className="news-text">{text}</span>
     </div>
   ));
