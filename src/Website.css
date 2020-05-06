@@ -180,6 +180,7 @@
 }
 
 .about-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 20% 80%;
