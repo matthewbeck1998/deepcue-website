@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "04237a0fbc1ca0879dffb946f161e5ab",
+    "revision": "383c4637d4d6c4ed26ab629d41379327",
     "url": "/deepcue-website/index.html"
   },
   {
-    "revision": "ec713478295f007e0d9e",
-    "url": "/deepcue-website/static/css/main.db2a96c4.chunk.css"
+    "revision": "0bf55eba64cdc91afe14",
+    "url": "/deepcue-website/static/css/main.1871a268.chunk.css"
   },
   {
     "revision": "1e94335a223d7bcff86d",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/deepcue-website/static/js/2.93499a61.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ec713478295f007e0d9e",
+    "revision": "0bf55eba64cdc91afe14",
     "url": "/deepcue-website/static/js/main.0523bc53.chunk.js"
   },
   {
