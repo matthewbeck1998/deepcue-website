@@ -1,15 +1,12 @@
 .website {
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.75);
   color: white;
-
   height: 100%;
-  width: 100%;
-
   display: flex;
   flex-direction: column;
-  align-items: center;
-
   overflow-y: scroll;
+  width: 100%;
 }
 
 .header {
@@ -59,8 +56,8 @@
 
 .section {
   height: calc(100% - 60px);
-  width: calc(100% - 60px);
   padding: 30px;
+  width: calc(100% - 60px);
 }
 
 #home-section {
@@ -71,18 +68,18 @@
 }
 
 .video-wrapper {
-  position: relative;
-  width: 100%;
   height: 0;
   padding-bottom: 56.25%;
+  position: relative;
+  width: 100%;
 }
 
 .video {
-  position: absolute;
+  height: 100%;
   left: 0;
+  position: absolute;
   top: 0;
   width: 100%;
-  height: 100%;
 }
 
 #resources-section {
@@ -98,10 +95,9 @@
 
 .home-container {
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.25);
   display: flex;
   justify-content: center;
-
-  background-color: rgba(0, 0, 0, 0.25);
 }
 
 .intro {
@@ -116,8 +112,8 @@
 }
 
 .image {
-  object-fit: contain;
   height: 100%;
+  object-fit: contain;
   width: 100%;
 }
 
@@ -134,14 +130,12 @@
 
 .resource {
   align-items: center;
-  display: flex;
-  justify-content: center;
-
   background-color: rgba(0, 0, 0, 0.25);
   color: white;
-  text-decoration: none;
-
+  display: flex;
   height: 90px;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .resource:hover {
@@ -155,13 +149,11 @@
 
 .news-container {
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-
-  background-color: rgba(0, 0, 0, 0.25);
-
   height: 90px;
+  justify-content: center;
   margin: 15px 0;
 }
 
@@ -176,12 +168,12 @@
 }
 
 .about-container {
+  background-color: rgba(0, 0, 0, 0.25);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   display: grid;
-  grid-template-rows: auto 1fr;
   grid-gap: 15px;
+  grid-template-rows: auto 1fr;
   padding: 15px;
-  background-color: rgba(0, 0, 0, 0.25);
 }
 
 .about-title {
@@ -202,16 +194,16 @@
 .team-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   display: grid;
+  grid-gap: 15px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
-  grid-gap: 15px;
   padding: 15px;
 }
 
 .team-card-nameplate {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
@@ -227,16 +219,16 @@
 
 .team-card-image {
   height: 200px;
-  width: 200px; 
+  width: 200px;
 }
 
 .team-card-description {
   grid-column: 1 / span 2;
-  text-align: justify;
   margin: 0;
+  text-align: justify;
 }
 
 .icon {
-  width: 45px;
   height: 45px;
+  width: 45px;
 }
