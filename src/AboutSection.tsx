@@ -8,7 +8,8 @@ function AboutSection({ state }: SectionProps) {
         state.currentSection === "ABOUT_SECTION" ? "section" : "section hidden"
       }
       id={"about-section"}
-    ><div className="about-container">
+    >
+    <div className="about-container">
         <h2>Description</h2>
         <p>
             The purpose of DeepCue is to create a machine learning model that learns to play a game with machine learning techniques, and the user should be able to improve the model by providing advice in the form of suggested button inputs. The machine learning model will use Deep Q Learning to learn the game based on a reward function of how far the agent makes it in the level. Users can watch the model learn in real time, and they will also have the option to pause the automated learning algorithm to provide suggested input. These suggested inputs will be incorporated into the model to help it perform better than one without user assistance.
