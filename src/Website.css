@@ -94,6 +94,10 @@
   width: 80%;
 }
 
+.intro-line {
+  margin: 0;
+}
+
 .image {
   object-fit: contain;
   height: 100%;
